@@ -34,7 +34,7 @@ export default new Router({
       redirect: { name: 'not-found' },
     },
     {
-      path: '/page/:uid',
+      path: '/:uid',
       name: 'page',
       component: Page,
     },
