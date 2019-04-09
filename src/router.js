@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import NotFound from './views/NotFound.vue';
-import Preview from './views/Preview.vue';
-import Tutorial from './views/Tutorial.vue';
-import Page from './views/Page.vue';
+import NotFound from './views/NotFound';
+import Preview from './views/Preview';
+import Tutorial from './views/Tutorial';
+import Page from './views/Page';
 
 Vue.use(Router);
 
