@@ -1,14 +1,13 @@
 <template>
   <div>
-    <p>Loading the Prismic's Preview...</p>
+    <p>Loading Prismic's Preview...</p>
   </div>
 </template>
 
 <script>
-// import Vue from 'vue';
-
 export default {
   name: 'Preview',
+
   beforeCreate() {
     const previewToken = this.$route.query.token;
 

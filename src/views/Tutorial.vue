@@ -3,12 +3,23 @@
     <header>
       <nav>
         <a href="#bootstrap"><strong>Configure a repository</strong></a>
-        <a href="https://prismic.io/docs/vuejs" target="_blank" rel="noopener" class="doc"
-          >Documentation<img src="../assets/img/tutorial/open.svg" alt="Open"
-        /></a>
+
+        <router-link to="/preview">
+          Preview
+        </router-link>
+
+        <a
+          href="https://prismic.io/docs/vuejs"
+          target="_blank"
+          rel="noopener"
+          class="doc"
+        >
+          Documentation
+          <img src="../assets/img/tutorial/open.svg" alt="Open">
+        </a>
       </nav>
       <div class="wrapper">
-        <img src="../assets/img/tutorial/rocket.svg" alt="Rocket" />
+        <img src="../assets/img/tutorial/rocket.svg" alt="Rocket">
         <h1>High five, you deserve it!</h1>
         <p>
           Grab a well deserved cup of coffee, you’re just a few steps away from creating a Vue.js
@@ -21,39 +32,44 @@
           <div class="guide">
             <ul>
               <li>
-                <a href="#bootstrap"
-                  ><span>1</span>Bootstrap your project<img
-                    src="../assets/img/tutorial/chevron.svg"
-                    alt="Chevron down"
-                /></a>
+                <a
+                  href="#bootstrap"
+                ><span>1</span>Bootstrap your project<img
+                  src="../assets/img/tutorial/chevron.svg"
+                  alt="Chevron down"
+                ></a>
               </li>
               <li>
-                <a href="#custom-type"
-                  ><span>2</span>Create a Custom Type "Page"<img
-                    src="../assets/img/tutorial/chevron.svg"
-                    alt="Chevron down"
-                /></a>
+                <a
+                  href="#custom-type"
+                ><span>2</span>Create a Custom Type "Page"<img
+                  src="../assets/img/tutorial/chevron.svg"
+                  alt="Chevron down"
+                ></a>
               </li>
               <li>
-                <a href="#new-document"
-                  ><span>3</span>Publish your first "Page" document<img
-                    src="../assets/img/tutorial/chevron.svg"
-                    alt="Chevron down"
-                /></a>
+                <a
+                  href="#new-document"
+                ><span>3</span>Publish your first "Page" document<img
+                  src="../assets/img/tutorial/chevron.svg"
+                  alt="Chevron down"
+                ></a>
               </li>
               <li>
-                <a href="#code"
-                  ><span>4</span>Query the API in your Vue component<img
-                    src="../assets/img/tutorial/chevron.svg"
-                    alt="Chevron down"
-                /></a>
+                <a
+                  href="#code"
+                ><span>4</span>Query the API in your Vue component<img
+                  src="../assets/img/tutorial/chevron.svg"
+                  alt="Chevron down"
+                ></a>
               </li>
               <li>
-                <a href="#done"
-                  ><span>5</span>Well done!<img
-                    src="../assets/img/tutorial/chevron.svg"
-                    alt="Chevron down"
-                /></a>
+                <a
+                  href="#done"
+                ><span>5</span>Well done!<img
+                  src="../assets/img/tutorial/chevron.svg"
+                  alt="Chevron down"
+                ></a>
               </li>
             </ul>
           </div>
@@ -74,11 +90,17 @@
 
       <h2>Follow these 5 simple steps</h2>
 
-      <h3 id="bootstrap"><span>1</span>Bootstrap your project</h3>
+      <h3 id="bootstrap">
+        <span>1</span>Bootstrap your project
+      </h3>
       <h4>Create a Prismic content repository</h4>
       <p>
         A repository is where your website’s content will live. Simply
-        <a href="https://prismic.io/#create" target="_blank" rel="noopener">create one</a> choosing
+        <a
+          href="https://prismic.io/#create"
+          target="_blank"
+          rel="noopener"
+        >create one</a> choosing
         a repository name and a plan. We’ve got a variety of plans including our favorite: Free!
       </p>
       <h4>Configure your project</h4>
@@ -95,7 +117,9 @@
         Next let’s see how to create a Vue component filled with content retrieved from Prismic.
       </p>
 
-      <h3 id="custom-type"><span>2</span>Create a Custom Type "Page"</h3>
+      <h3 id="custom-type">
+        <span>2</span>Create a Custom Type "Page"
+      </h3>
       <p>
         We’ll create a document containing a title, a description, a call to action and an icon.
         Let’s create a Custom Type in Prismic with the corresponding fields. We’ll add an additional
@@ -164,7 +188,9 @@
 }
 </code></pre>
 
-      <h3 id="new-document"><span>3</span>Publish your first "Page" document</h3>
+      <h3 id="new-document">
+        <span>3</span>Publish your first "Page" document
+      </h3>
       <p>
         Now it is time to fill in and publish your first "Page" document in your Prismic repository.
       </p>
@@ -176,7 +202,9 @@
       </p>
       <p>When you’re done, hit <em>"Save"</em> then <em>"Publish"</em>.</p>
 
-      <h3 id="code"><span>4</span>Query the API in your Vue component</h3>
+      <h3 id="code">
+        <span>4</span>Query the API in your Vue component
+      </h3>
 
       <h4>Create a component that retrieves your content</h4>
       <p>Let’s create a Vue component that will display content fetched from the Prismic API.</p>
@@ -343,14 +371,18 @@ import Page from './views/Page.vue'
 
       <p>
         In your browser go to
-        <a href="http://localhost:8080/page/quickstart" target="_blank" rel="noopener"
-          >http://localhost:8080/page/quickstart</a
-        >
+        <a
+          href="http://localhost:8080/page/quickstart"
+          target="_blank"
+          rel="noopener"
+        >http://localhost:8080/page/quickstart</a>
         <em> and voilà!</em> You’ve officially created a Vue component that pulls content from
         Prismic.
       </p>
 
-      <h3 id="done"><span>5</span>Well done!</h3>
+      <h3 id="done">
+        <span>5</span>Well done!
+      </h3>
       <p>Sit back and enjoy the result.</p>
       <p>
         Basically in these few steps you’ve added content management to your Vue.js project and
